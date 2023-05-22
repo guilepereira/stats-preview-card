@@ -1,0 +1,16 @@
+.attribution {
+    bottom: 20px;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsla(0, 0%, 100%, 0.2);
+}
+
+.attribution p {
+    color: hsla(0, 0%, 100%, 0.2);
+}

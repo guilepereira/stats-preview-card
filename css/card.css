@@ -1,0 +1,40 @@
+.card {
+    background-color: var(--color-card);
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: grid;
+    grid-template-areas:'card__image'
+    'card__content';
+    height: 78rem;
+    text-align: center;
+    width: 33rem;
+}
+
+#card__image {
+    background-image: url("../images/image-header-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+    filter: saturate(1.5) contrast(0.8) hue-rotate(5deg);
+    grid-area: card__image;
+    height: 24rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.card__image--overlay {
+    background-color: var(--color-accent);
+    inset: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+}
+
+#card__content {
+    display: flex;
+    flex-direction: column;
+    grid-area: card__content;
+    height: 54rem;
+    justify-content: space-between;
+    padding: 3.8rem 3rem;
+}

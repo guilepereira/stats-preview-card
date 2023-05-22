@@ -1,0 +1,29 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    height: 21.2rem;
+    justify-content: space-between;
+}
+
+.stats__group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 5.5rem;
+    justify-content: space-around;
+}
+
+.stats__value {
+    color: var(--color-heading);
+    font-family: 'Inter', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.stats__product {
+    color: var(--color-stats);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
