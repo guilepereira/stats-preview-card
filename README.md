@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live project on [GitHub](https://guilepereira.github.io/html-css/stats-preview-card/)
+- Live project on [GitHub](https://guilepereira.github.io/stats-preview-card/)
 
 - Solution on [Stats Preview Card by Guile Pereira](https://www.frontendmentor.io/solutions/stats-preview-card-mobile-first-bem-atomic-UAKZ9hU7Oh)
 
